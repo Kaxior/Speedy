@@ -1,0 +1,36 @@
+#include "_VERSION"
+
+#define XAMGRAPH_TITLE			"XamGraph"
+#define	XAMGRAPH_SHORTDESC		"Trivial 2D Graphic Library based on SDL2"
+
+#define XAMGRAPH_COPYRIGHT		"(c)2007-2024 by Alain Menu"
+#define XAMGRAPH_MAILTO			"alain.menu@ac-creteil.fr"
+
+/* ------------------------------------------------------------------------ */
+
+#define XAMGRAPH_ABOUTMESSAGE	\
+	XAMGRAPH_TITLE \
+	" - version " \
+	XAMGRAPH_VERSION \
+	"\n" \
+	XAMGRAPH_SHORTDESC \
+	"\nCopyright " \
+	XAMGRAPH_COPYRIGHT \
+	" [" \
+	XAMGRAPH_MAILTO \
+	"]\n"
+
+#define XAMGRAPH_ABOUTMESSAGE_HTML	\
+	"<p><h3>" \
+	XAMGRAPH_TITLE \
+	" - version " \
+	XAMGRAPH_VERSION \
+	"</h3><p>" \
+	XAMGRAPH_SHORTDESC \
+	"<p>Copyright " \
+	XAMGRAPH_COPYRIGHT \
+	" <a href=\"mailto:" \
+	XAMGRAPH_MAILTO \
+	"\">" \
+	XAMGRAPH_MAILTO \
+	"</a>"

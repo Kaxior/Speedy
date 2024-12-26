@@ -1,0 +1,19 @@
+projet xampnm (basé sur XamGraph-SDL)
+-------------------------------------
+
+visualiseur de fichiers PNM (Portable aNy Map)
+
+PBM (Portable BitMap) : P1 (ASCII), P4 (binaire)
+PGM (Portable GrayMap): P2 (ASCII), P5 (binaire)
+PPM (Portable Pixmap) : P3 (ASCII), P6 (binaire)
+
+
+usage:	xampnm [-zn] <filename>
+
+n = facteur de zoom, défaut 1
+(1 pixel réel -> point affiché de n x n pixels)
+
+. affiche les infos relatives à l'image sur la sortie std
+. ouvre une fenêtre graphique de visualisation
+. gère le clic gauche souris pour infos sur pixel concerné (position + couleur)
+. fin normale par ESC
